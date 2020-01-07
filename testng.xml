@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="chrome"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="com.selenium.automation.scripts.Gmail1"/>
+      <!-- <class name="com.selenium.automation.scripts.Grouping_mechanism"/>
+      <class name="com.selenium.automation.scripts.Grouping_Class2"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

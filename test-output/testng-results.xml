@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10951" started-at="2020-01-06T14:56:58Z" finished-at="2020-01-06T14:57:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10951" started-at="2020-01-06T14:56:58Z" finished-at="2020-01-06T14:57:09Z">
+      <class name="com.selenium.automation.scripts.Gmail1">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.selenium.automation.scripts.Gmail1@11531931]" name="openBrowser" is-config="true" duration-ms="16416" started-at="2020-01-06T20:26:42Z" finished-at="2020-01-06T20:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="gmailLogin()[pri:0, instance:com.selenium.automation.scripts.Gmail1@11531931]" name="gmailLogin" duration-ms="10938" started-at="2020-01-06T20:26:58Z" finished-at="2020-01-06T20:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailLogin -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.selenium.automation.scripts.Gmail1@11531931]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-01-06T20:26:58Z" finished-at="2020-01-06T20:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.selenium.automation.scripts.Gmail1.gmailLogin() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.selenium.automation.scripts.Gmail1@11531931]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-06T20:27:09Z" finished-at="2020-01-06T20:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gmailLogin status=SUCCESS method=Gmail1.gmailLogin()[pri:0, instance:com.selenium.automation.scripts.Gmail1@11531931] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.automation.scripts.Gmail1@11531931]" name="closeBrowser" is-config="true" duration-ms="6252" started-at="2020-01-06T20:27:09Z" finished-at="2020-01-06T20:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.automation.scripts.Gmail1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
